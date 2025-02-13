@@ -5,9 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <meta name="description"
+        content="Гостиница «Покровский дом» расположена в центре Москвы, в пределах Садового кольца. Каждый номер оборудован телевизором, холодильником, чайником, сейфом, кондиционером, душевой зоной, комфортабельной мебелью, феном, тапочками, а также множеством иных необходимых и приятных мелочей.">
     <meta property="og:locale" content="ru_RU" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Гостиница «Покровский дом»" />
+    <meta property="og:description"
+        content="Гостиница «Покровский дом» расположена в центре Москвы, в пределах Садового кольца. Каждый номер оборудован телевизором, холодильником, чайником, сейфом, кондиционером, душевой зоной, комфортабельной мебелью, феном, тапочками, а также множеством иных необходимых и приятных мелочей.">
+    <meta property="og:url" content="https://pokrovskydom.ru/" />
+    <meta property="og:site_name" content="Гостиница «Покровский дом»" />
+    <meta property="og:image" content="https://pokrovskydom.ru/img/og-image-1200x675.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:type" content="image/png" />
+
+    <meta name="twitter:title" content="Гостиница «Покровский дом»">
+    <meta name="twitter:description"
+        content="Гостиница «Покровский дом» расположена в центре Москвы, в пределах Садового кольца. Каждый номер оборудован телевизором, холодильником, чайником, сейфом, кондиционером, душевой зоной, комфортабельной мебелью, феном, тапочками, а также множеством иных необходимых и приятных мелочей.">
+    <meta name="twitter:image" content="https://pokrovskydom.ru/img/og-image-696x696.png">
+    <meta name="twitter:image:type" content="image/png" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <title>Гостиница "Покровский дом"</title>
 
