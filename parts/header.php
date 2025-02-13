@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <a href="/" class="header__logo">
-                    <img src="img/logo.svg" alt="">
+                    <img src="img/logo.svg" alt="Логотип гостиницы «Покровский дом»">
                 </a>
                 <a href="tel:+79689715685" class="header__contact high-level"><span class="hidden-tablet">+7 (968)
                         971-56-85</span></a>
