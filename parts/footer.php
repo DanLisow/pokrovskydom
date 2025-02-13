@@ -6,16 +6,16 @@
                 <nav class="footer__menu">
                     <ul class="footer__menu-list">
                         <li class="footer__menu-item">
-                            <a href="/">Об отеле</a>
+                            <a href="/#about">Об отеле</a>
                         </li>
                         <li class="footer__menu-item">
-                            <a href="/">Галерея</a>
+                            <a href="/#gallery">Галерея</a>
                         </li>
                         <li class="footer__menu-item">
-                            <a href="/">Контакты</a>
+                            <a href="/#contact">Контакты</a>
                         </li>
                         <li class="footer__menu-item">
-                            <a href="/">Отзывы</a>
+                            <a href="/#review">Отзывы</a>
                         </li>
                     </ul>
                 </nav>
@@ -24,7 +24,6 @@
                 <p class="footer__column-title">Реквизиты</p>
                 <div class="footer__details">
                     <p>ИНН: 9701210130</p>
-                    <p>КПП: 770101001</p>
                     <p>ОГРН: 1227700362570</p>
                     <p>Руководитель: генеральный директор Ремизов Дмитрий Борисович</p>
                 </div>
@@ -42,7 +41,7 @@
                 </div>
             </div>
             <div class="footer__confidence">
-                <a href="/">Политика конфиденциальности</a>
+                <a href="/politics.pdf" target="_blank">Политика конфиденциальности</a>
                 <p>© ООО «Покровский дом», 2025</p>
             </div>
         </div>
