@@ -3,7 +3,7 @@
         <div class="container">
             <div class="header__top-inner hidden-tablet">
                 <a href="mailto:pokrovka43hotel@mail.ru">pokrovka43hotel@mail.ru</a>
-                <p>г. Москва, ул. Пакровка, 43, стр 3</p>
+                <p>г. Москва, ул. Покровка, 43, стр 3</p>
             </div>
         </div>
     </div>
