@@ -1,0 +1,38 @@
+.main {
+  position: relative;
+
+  &__img {
+    @include abs-full;
+
+    & img {
+      @include img-size;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 36%;
+      height: 100%;
+
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(10px);
+    }
+  }
+
+  &__inner {
+    padding: 290rem 0 180rem;
+  }
+
+  &__info {
+    position: relative;
+    width: min(315rem, 100%);
+  }
+
+  &__title {
+    margin-bottom: 40rem;
+  }
+
+  @import "main-tablet";
+}

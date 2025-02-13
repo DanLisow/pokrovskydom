@@ -1,0 +1,126 @@
+@include tablet {
+  &__top {
+    &-inner {
+      width: 100%;
+      padding-block: 16rem;
+      flex-direction: column;
+      row-gap: 12rem;
+      background: var(--black-alt);
+
+      :is(a, p) {
+        @include f-12;
+        font-weight: 400;
+        color: var(--gray-1);
+      }
+    }
+  }
+  &__bottom {
+    &-inner {
+      padding-block: 16rem;
+    }
+  }
+
+  &__menu {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 123rem;
+
+    @include flex(center, $fd: column);
+
+    overflow-y: auto;
+    background: var(--black);
+    transform: translateX(100%);
+    transition: transform 0.7s var(--anim-ex);
+
+    &-list {
+      flex-direction: column;
+      row-gap: 50rem;
+    }
+    &-item {
+      & a {
+        @include f-20;
+      }
+    }
+
+    &.open {
+      transform: translateX(0);
+    }
+  }
+
+  &__logo {
+    width: 124rem;
+    height: 47rem;
+    margin-left: 0;
+  }
+
+  &__burger {
+    width: 29rem;
+    height: 22rem;
+    flex-shrink: 0;
+
+    @include flex($fd: column, $jc: space-between);
+
+    & span {
+      width: 100%;
+      height: 1rem;
+      background: var(--white);
+      transition: var(--transition-1);
+
+      &:first-child {
+        transform-origin: right center;
+      }
+      &:last-child {
+        transform-origin: right center;
+      }
+    }
+
+    &.open {
+      & span {
+        &:first-child {
+          transform: rotate(-45deg);
+        }
+        &:nth-child(2) {
+          transform: scale(0);
+        }
+        &:last-child {
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  &__logo,
+  &__burger {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__contact {
+    margin-left: 0;
+    column-gap: 10rem;
+
+    &.high-level {
+      margin-left: auto;
+      margin-right: 12rem;
+      padding: 12rem;
+      border: 1rem solid var(--gold);
+      border-radius: 50%;
+
+      &::before {
+        width: 20rem;
+        height: 20rem;
+      }
+    }
+
+    &:not(.high-level) {
+      margin-top: auto;
+      margin-bottom: 24rem;
+
+      @include f-20;
+    }
+  }
+}

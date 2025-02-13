@@ -1,0 +1,22 @@
+.title {
+  font-family: var(--font-pd);
+  text-transform: uppercase;
+
+  &.font-m {
+    @include f-40;
+  }
+
+  &.font-s {
+    @include f-22;
+  }
+
+  &.white {
+    color: var(--white);
+  }
+
+  &.t-center {
+    text-align: center;
+  }
+
+  @import "title-tablet";
+}

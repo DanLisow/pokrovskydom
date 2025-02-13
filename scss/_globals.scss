@@ -1,0 +1,67 @@
+body {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+
+  @include flex($fd: column);
+
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+  background: var(--white);
+  font-family: var(--font-main);
+  font-weight: 400;
+  color: var(--black);
+  line-height: 1.2;
+  font-size: 16rem;
+
+  &.lock {
+    overflow: hidden;
+  }
+
+  @include tablet {
+    font-size: 14rem;
+  }
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition: var(--transition);
+}
+
+button {
+  @include tablet {
+    color: currentColor;
+  }
+}
+
+input,
+textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  appearance: none;
+  position: absolute;
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}

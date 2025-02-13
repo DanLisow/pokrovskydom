@@ -1,0 +1,56 @@
+.about {
+  &__inner {
+    @include p-section;
+  }
+
+  &__block {
+    margin-top: 40rem;
+  }
+
+  &__item {
+    @include flex(stretch);
+
+    &:first-child {
+      margin-bottom: 20rem;
+    }
+
+    &.reverse {
+      & .about__text {
+        padding-inline: 30rem 60rem;
+      }
+
+      & .about__img {
+        mask-image: linear-gradient(270deg, transparent, black 36.24%);
+      }
+    }
+  }
+
+  &__text {
+    position: relative;
+    padding-block: 45rem;
+    padding-inline: 60rem 30rem;
+
+    & p {
+      color: var(--gray-2);
+
+      &:not(:last-child) {
+        margin-bottom: 10rem;
+      }
+    }
+
+    @import "about-corner";
+  }
+
+  &__img {
+    flex: 0 0 700rem;
+    height: 300rem;
+    mask-image: linear-gradient(90deg, transparent, black 36.24%);
+
+    & img {
+      @include img-size;
+      border-radius: var(--r);
+    }
+  }
+
+  @import "about-tablet";
+}

@@ -1,0 +1,23 @@
+.benefits {
+  &__inner {
+    padding-top: 60rem;
+  }
+  &__items {
+    @include flex(center, 80, center);
+  }
+  &__item {
+    & img {
+      display: block;
+      width: 80rem;
+      height: 80rem;
+      margin: 0 auto 10rem;
+      object-fit: contain;
+    }
+
+    & p {
+      text-transform: uppercase;
+    }
+  }
+
+  @import "benefits-tablet";
+}

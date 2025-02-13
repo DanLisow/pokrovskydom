@@ -1,0 +1,28 @@
+.review {
+  &__inner {
+    @include p-section;
+  }
+  &__block {
+    margin-top: 40rem;
+
+    @include flex(stretch, 20);
+  }
+  &__list {
+    flex: auto;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+  }
+  &__img {
+    flex: 0 0 650rem;
+    height: 634rem;
+
+    & img {
+      @include img-size;
+
+      border-radius: var(--r);
+    }
+  }
+
+  @import "review-tablet";
+}

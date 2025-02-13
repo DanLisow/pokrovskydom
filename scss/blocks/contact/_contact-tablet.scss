@@ -1,0 +1,27 @@
+@include tablet {
+  &__inner {
+    padding: 336rem 0 16rem;
+  }
+
+  &__info {
+    padding: 24rem;
+    border-radius: var(--r-s);
+  }
+
+  &__items {
+    margin-top: 24rem;
+  }
+  &__item {
+    column-gap: 12rem;
+
+    &-text {
+      & p {
+        margin-bottom: 12rem;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 20rem;
+    }
+  }
+}

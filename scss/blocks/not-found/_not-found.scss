@@ -1,0 +1,32 @@
+.not-found {
+  &__inner {
+    padding-block: 185rem 80rem;
+  }
+  &__info {
+    width: min(500rem, 100%);
+    margin: 0 auto;
+    text-align: center;
+
+    & a {
+      display: inline-block;
+      padding: 12rem 53rem;
+      border-radius: var(--r);
+      background: var(--gold);
+
+      @include f-20;
+      color: var(--white);
+    }
+  }
+  &__title {
+    font-family: var(--font-pd);
+    font-size: 220rem;
+    font-variant-numeric: lining-nums proportional-nums;
+    text-transform: uppercase;
+  }
+  &__text {
+    margin: 20rem 0 40rem;
+    color: var(--gray-2);
+  }
+
+  @import "not-found-tablet";
+}

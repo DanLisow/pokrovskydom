@@ -1,0 +1,9 @@
+@include tablet {
+  &.font-m {
+    @include f-24;
+  }
+
+  &.font-s {
+    @include f-18;
+  }
+}

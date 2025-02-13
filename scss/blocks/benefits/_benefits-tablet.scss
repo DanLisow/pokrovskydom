@@ -1,0 +1,27 @@
+@include tablet {
+  &__inner {
+    padding-block: 40rem;
+  }
+  &__items {
+    align-items: initial;
+    justify-content: space-between;
+    column-gap: 12rem;
+    row-gap: 16rem;
+    flex-wrap: wrap;
+  }
+  &__item {
+    flex: 0 1 calc(50% - 6rem);
+    & img {
+      width: 56rem;
+      height: 56rem;
+    }
+
+    & p {
+      text-align: center;
+    }
+
+    &:last-child {
+      flex: 1 1 100%;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@include tablet {
+  &__block {
+    margin-top: 20rem;
+    flex-direction: column;
+    row-gap: 20;
+  }
+  &__list {
+    height: 647rem;
+  }
+  &__img {
+    flex: none;
+    height: 300rem;
+  }
+}

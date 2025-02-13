@@ -1,0 +1,33 @@
+@include tablet {
+  overflow-x: clip;
+  &__slider {
+    margin-top: 24rem;
+    border-radius: var(--r-s);
+    overflow: visible;
+
+    &-button {
+      display: none;
+    }
+  }
+  &__slide {
+    height: 400rem;
+
+    & img {
+      border-radius: var(--r-s);
+    }
+  }
+  &__pagination {
+    margin-top: 20rem;
+    top: unset !important;
+    left: 50rem !important;
+    width: calc(100% - 100rem) !important;
+    height: 2rem !important;
+    border-radius: var(--r);
+    background: var(--gray-1);
+
+    & .swiper-pagination-progressbar-fill {
+      background: var(--brown);
+      border-radius: inherit;
+    }
+  }
+}

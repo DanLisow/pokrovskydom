@@ -1,0 +1,21 @@
+@include tablet {
+  &__inner {
+    padding-block: 103rem 40rem;
+  }
+  &__info {
+    & a {
+      width: 100%;
+      padding: 12rem 0;
+
+      @include f-18;
+
+      text-align: center;
+    }
+  }
+  &__title {
+    font-size: 128rem;
+  }
+  &__text {
+    margin: 20rem 0 12rem;
+  }
+}

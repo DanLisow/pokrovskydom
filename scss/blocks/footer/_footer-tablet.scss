@@ -1,0 +1,44 @@
+@include tablet {
+  &__inner {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    row-gap: 40rem;
+  }
+
+  &__column {
+    &-title {
+      margin-bottom: 24rem;
+      text-align: center;
+    }
+
+    &.second {
+      flex: none;
+      margin-inline: 0;
+    }
+
+    &.third {
+      margin-left: 0;
+    }
+  }
+
+  &__menu-list,
+  &__details,
+  &__contact {
+    align-items: center;
+    text-align: center;
+  }
+
+  &__logo {
+    order: -1;
+  }
+
+  &__confidence {
+    flex: none;
+
+    flex-direction: column;
+    row-gap: 20rem;
+
+    @include f-12;
+  }
+}

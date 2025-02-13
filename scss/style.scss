@@ -1,0 +1,31 @@
+@import "normalize", "fonts", "media", "mixin-fonts", "mixins", "variables", "utils", "globals";
+
+// Шапка
+@import "blocks/header/header";
+
+// Утилиты
+@import "blocks/utils/title/title";
+
+// Главная
+@import "blocks/main/main";
+
+// Преимущества
+@import "blocks/benefits/benefits";
+
+// О гостинице
+@import "blocks/about/about";
+
+// Галерея
+@import "blocks/gallery/gallery";
+
+// Отзывы
+@import "blocks/review/review";
+
+// Контакты
+@import "blocks/contact/contact";
+
+// 404
+@import "blocks/not-found/not-found";
+
+// Футер
+@import "blocks/footer/footer";

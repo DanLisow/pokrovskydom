@@ -1,0 +1,29 @@
+@include tablet {
+  &__block {
+    margin-top: 20rem;
+  }
+
+  &__item {
+    flex-direction: column;
+
+    &.reverse {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__text {
+    padding: 24rem !important;
+
+    & p {
+      @include f-16;
+    }
+
+    @import "about-corner";
+  }
+
+  &__img {
+    flex: none;
+    height: 200rem;
+    mask-image: linear-gradient(180deg, transparent, black 40%) !important;
+  }
+}
