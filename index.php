@@ -62,7 +62,7 @@
 
     <section class="main">
         <div class="main__img">
-            <img src="img/main.jpg" alt="">
+            <img src="img/main.jpg" alt="Главное изображение">
         </div>
         <div class="container">
             <div class="main__inner">
@@ -80,23 +80,23 @@
             <div class="benefits__inner">
                 <div class="benefits__items">
                     <div class="benefits__item">
-                        <img src="img/benefits-1.svg" alt="">
+                        <img src="img/benefits-1.svg" alt="Иконка преимуществ - 1">
                         <p>Центр Москвы</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="img/benefits-2.svg" alt="">
+                        <img src="img/benefits-2.svg" alt="Иконка преимуществ - 2">
                         <p>интернет 5G</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="img/benefits-3.svg" alt="">
+                        <img src="img/benefits-3.svg" alt="Иконка преимуществ - 3">
                         <p>рядом кафе</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="img/benefits-4.svg" alt="">
+                        <img src="img/benefits-4.svg" alt="Иконка преимуществ - 4">
                         <p>Пешком до кремля</p>
                     </div>
                     <div class="benefits__item">
-                        <img src="img/benefits-5.svg" alt="">
+                        <img src="img/benefits-5.svg" alt="Иконка преимуществ - 5">
                         <p>Новые номера</p>
                     </div>
                 </div>
@@ -121,12 +121,14 @@
                                 продуктовые магазины, аптеки, разнообразные кафе и рестораны.</p>
                         </div>
                         <div class="about__img">
-                            <img src="img/about-1.jpg" alt="">
+                            <img src="img/about-1.jpg"
+                                alt="Изображение секции &quot;О Гостинице «Покровский дом»&quot; - 1">
                         </div>
                     </div>
                     <div class="about__item reverse">
                         <div class="about__img">
-                            <img src="img/about-2.jpg" alt="">
+                            <img src="img/about-2.jpg"
+                                alt="Изображение секции &quot;О Гостинице «Покровский дом»&quot; - 2">
                         </div>
                         <div class="about__text">
                             <div class="about__text-corner corner-left-m corner-top corner-right corner-plus-turn">
@@ -154,31 +156,31 @@
                     <div class="swiper gallery__slider" id="gallery-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-1.png" alt="">
+                                <img src="img/gallery-1.png" alt="Галерея-1">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-2.png" alt="">
+                                <img src="img/gallery-2.png" alt="Галерея-2">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-3.png" alt="">
+                                <img src="img/gallery-3.png" alt="Галерея-3">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-4.png" alt="">
+                                <img src="img/gallery-4.png" alt="Галерея-4">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-5.png" alt="">
+                                <img src="img/gallery-5.png" alt="Галерея-5">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-6.png" alt="">
+                                <img src="img/gallery-6.png" alt="Галерея-6">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-7.png" alt="">
+                                <img src="img/gallery-7.png" alt="Галерея-7">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-8.png" alt="">
+                                <img src="img/gallery-8.png" alt="Галерея-8">
                             </div>
                             <div class="swiper-slide gallery__slide">
-                                <img src="img/gallery-9.png" alt="">
+                                <img src="img/gallery-9.png" alt="Галерея-9">
                             </div>
                         </div>
                     </div>
@@ -203,7 +205,7 @@
                             дом на карте Москвы — Яндекс Карты</a>
                     </div>
                     <div class="review__img">
-                        <img src="img/review.png" alt="">
+                        <img src="img/review.png" alt="Изображение секции &quot;Что говорят гости&quot;">
                     </div>
                 </div>
             </div>
@@ -225,21 +227,21 @@
                     <h2 class="title font-m">Контакты</h2>
                     <div class="contact__items">
                         <div class="contact__item">
-                            <img src="img/phone.svg" alt="">
+                            <img src="img/phone.svg" alt="Иконка телефона">
                             <div class="contact__item-text">
                                 <p>Телефон:</p>
                                 <a href="tel:+79689715685">+7 (968) 971-56-85</a>
                             </div>
                         </div>
                         <div class="contact__item">
-                            <img src="img/location.svg" alt="">
+                            <img src="img/location.svg" alt="Иконка локации">
                             <div class="contact__item-text">
                                 <p>Адрес:</p>
                                 <span>г. Москва, ул. Пакровка, 43, стр 3</span>
                             </div>
                         </div>
                         <div class="contact__item">
-                            <img src="img/mail.svg" alt="">
+                            <img src="img/mail.svg" alt="Иконка почты">
                             <div class="contact__item-text">
                                 <p>Почта:</p>
                                 <a href="mailto:pokrovka43hotel@mail.ru">pokrovka43hotel@mail.ru</a>
