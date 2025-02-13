@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+    <title>Гостиница "Покровский дом"</title>
+
     <meta name="description"
         content="Гостиница «Покровский дом» расположена в центре Москвы, в пределах Садового кольца. Каждый номер оборудован телевизором, холодильником, чайником, сейфом, кондиционером, душевой зоной, комфортабельной мебелью, феном, тапочками, а также множеством иных необходимых и приятных мелочей.">
     <meta property="og:locale" content="ru_RU" />
@@ -25,8 +28,6 @@
     <meta name="twitter:image" content="https://pokrovskydom.ru/img/og-image-696x696.png">
     <meta name="twitter:image:type" content="image/png" />
     <meta name="twitter:card" content="summary_large_image" />
-
-    <title>Гостиница "Покровский дом"</title>
 
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.min.css">
