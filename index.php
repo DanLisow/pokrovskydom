@@ -254,7 +254,7 @@
                             <img src="img/location.svg" alt="Иконка локации">
                             <div class="contact__item-text">
                                 <p>Адрес:</p>
-                                <span>г. Москва, ул. Пакровка, 43, стр 3</span>
+                                <span>г. Москва, ул. Покровка, 43, стр 3</span>
                             </div>
                         </div>
                         <div class="contact__item">

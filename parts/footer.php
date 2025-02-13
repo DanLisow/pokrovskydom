@@ -26,7 +26,7 @@
                     <p>ИНН: 9701210130</p>
                     <p>ОГРН: 1227700362570</p>
                     <p itemscope itemtype="https://schema.org/Person">Руководитель: <span itemprop="name">генеральный
-                            директор Ремизов Дмитрий Борисович</span></p>
+                            директор Кедров Вячеслав Юрьевич</span></p>
                 </div>
             </div>
             <a href="/" class="footer__logo">
@@ -40,7 +40,7 @@
                         971-56-85</a>
                     <p class="footer__contact-item footer-location" itemprop="address" itemscope
                         itemtype="https://schema.org/PostalAddress"><span itemprop="streetAddress">г. Москва, ул.
-                            Пакровка, 43, стр3</span></p>
+                            Покровка, 43, стр3</span></p>
                     <a href="mailto:pokrovka43hotel@mail.ru" class="footer__contact-item footer-mail"
                         itemprop="email">pokrovka43hotel@mail.ru</a>
                 </div>
